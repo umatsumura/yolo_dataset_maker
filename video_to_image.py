@@ -7,7 +7,7 @@ class VideotoImage:
         self.image_width = image_width
         self.image_height = image_height
     
-    def save_frames(self, video_path, dir_path, basename):
+    def save_frames(self, video_path, basename):
         videos = os.listdir(video_path)
         print(videos)
         digit = 0
@@ -17,13 +17,17 @@ class VideotoImage:
             print(cap.isOpened())
             if not cap.isOpened():
                 return
-            os.makedirs(dir_path, exist_ok=True)
-            base_path = os.path.join(dir_path, basename)
+            os.makedirs('data/dataset/train/images', exist_ok=True)
+            os.makedirs('data/dataset/train/labels', exist_ok=True)
+            os.makedirs('data/dataset/valid/images', exist_ok=True)
+            os.makedirs('data/dataset/valid/labels', exist_ok=True)
+            
+            base_path = os.path.join('data/dataset/train/images', basename)
             n = 0
             while True:
                 ret, frame = cap.read()
                 if ret:
-                    if n%5 == 0:
+                    if n%10 == 0:
                         cv2.imwrite('{}_{}.{}'.format(base_path, str(digit), 'jpg'), frame)
                         n+=1
                         digit += 1
@@ -34,4 +38,4 @@ class VideotoImage:
 
 videoToImage = VideotoImage(640, 480)
 
-videoToImage.save_frames('data/hako/', 'data/temp/result', 'hako')
+videoToImage.save_frames('data/hako/', 'hako')
