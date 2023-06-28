@@ -36,6 +36,6 @@ class VideotoImage:
                 else:
                     break
 
-videoToImage = VideotoImage(640, 480)
+videoToImage = VideotoImage(1280, 720)
 
-videoToImage.save_frames('data/hako/', 'hako')
+videoToImage.save_frames('data/flask/', 'flask')
