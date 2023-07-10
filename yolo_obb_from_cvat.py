@@ -20,7 +20,7 @@ class CvatToYoloObb:
             # |     |
             # p4 -- p3
         rvec = lambda t : np.array([[np.cos(t), -np.sin(t)],
-                                    [np.cos(t), np.sin(t)]])
+                                    [np.sin(t), np.cos(t)]])
         center = (p1 + p3)/2
         p1_center = p1 - center
         p3_center = p3 - center
@@ -29,8 +29,8 @@ class CvatToYoloObb:
         p2_leveled = np.array([p3_leveled[0], p1_leveled[1]])
         p4_leveled = np.array([p1_leveled[0], p3_leveled[1]])
         #rotate p2_leveled and p4_leveled
-        p2 = np.dot(rvec(ang_rad), p2_leveled) 
-        p4 = np.dot(rvec(ang_rad), p4_leveled)
+        p2 = np.dot(rvec(ang_rad), p2_leveled) + center
+        p4 = np.dot(rvec(ang_rad), p4_leveled) + center
         return [str(p1[0]),str(p1[1]), str(p2[0]),str(p2[1]), str(p3[0]),str(p3[1]), str(p4[0]),str(p4[1]), label, "0"]
 
     def cvat_to_obb(self,anno_path, img_path, valid_rate):
@@ -44,7 +44,7 @@ class CvatToYoloObb:
             p1 = np.array([float(box.get('xtl')), float(box.get('ytl'))])
             p3 = np.array([float(box.get('xbr')), float(box.get('ybr'))])
             rotation = float(box.get('rotation')) if not box.get('rotation') == None else 0
-            rotation = -rotation if rotation < 180 else 360 - rotation
+            rotation = rotation if rotation < 180 else 360 - rotation
             # calculate 4 corners of rectangle
             ang_rad = np.deg2rad(rotation)
             id = anno.attrib["id"]
@@ -69,7 +69,7 @@ class CvatToYoloObb:
 
 if __name__ == '__main__':
     cvat2YoloObb = CvatToYoloObb()
-    cvat2YoloObb.cvat_to_obb("annotations.xml", "images/", 0.2)
+    cvat2YoloObb.cvat_to_obb("annotations.xml", "images/", 0.15)
 
 
 
