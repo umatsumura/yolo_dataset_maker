@@ -46,7 +46,7 @@ class CvatToYoloObb:
             rotation = float(box.get('rotation')) if not box.get('rotation') == None else 0
             rotation = rotation if rotation < 180 else 360 - rotation
             # calculate 4 corners of rectangle
-            ang_rad = np.deg2rad(rotation)
+            ang_rad = -np.deg2rad(rotation)
             id = anno.attrib["id"]
             label = box.attrib["label"]
             rect = self.calc_rect(p1, p3, ang_rad, label)
