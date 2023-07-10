@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1</id>
+      <size>114</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-06-29 12:53:01.804465+00:00</created>
+      <updated>2023-06-30 02:28:55.218464+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>113</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1</id>
+          <start>0</start>
+          <stop>113</stop>
+          <url>http://localhost:8080/api/jobs/1</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>umatsumura</username>
+        <email>y.matsumura707@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>hako</name>
+          <color>#59084b</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2023-06-30 14:20:04.816036+00:00</dumped>
+  </meta>
+  <image id="0" name="hako_0.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="515.09" ytl="378.43" xbr="692.00" ybr="489.24" rotation="354.10" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="hako_1.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="499.68" ytl="410.60" xbr="676.62" ybr="519.30" rotation="356.20" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="hako_10.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="551.06" ytl="101.95" xbr="718.03" ybr="346.41" rotation="344.10" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="hako_100.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="707.44" ytl="346.65" xbr="1036.10" ybr="557.05" rotation="4.30" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="hako_101.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="631.20" ytl="347.79" xbr="966.23" ybr="558.18" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="hako_102.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="593.41" ytl="308.31" xbr="936.90" ybr="521.78" rotation="357.30" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="hako_103.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="484.97" ytl="275.00" xbr="853.73" ybr="487.13" rotation="9.00" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="hako_104.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="383.62" ytl="230.63" xbr="737.32" ybr="455.77" rotation="33.00" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="hako_105.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="391.11" ytl="270.65" xbr="754.71" ybr="507.76" rotation="51.10" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="hako_106.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="425.86" ytl="108.04" xbr="807.81" ybr="340.15" rotation="66.10" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="hako_107.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="525.92" ytl="378.72" xbr="901.49" ybr="610.65" rotation="46.80" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="hako_108.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="659.60" ytl="299.19" xbr="1034.85" ybr="542.52" rotation="10.10" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="hako_109.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="543.25" ytl="189.33" xbr="912.84" ybr="417.94" rotation="351.00" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="hako_11.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="571.40" ytl="216.70" xbr="833.20" ybr="355.40" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="hako_110.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="487.12" ytl="297.06" xbr="822.83" ybr="512.12" rotation="345.60" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="hako_111.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="449.76" ytl="222.34" xbr="772.20" ybr="435.98" rotation="345.80" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="hako_112.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="409.20" ytl="16.03" xbr="775.92" ybr="232.18" rotation="351.20" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="hako_113.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="437.23" ytl="146.87" xbr="766.46" ybr="347.36" rotation="353.10" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="hako_12.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="705.32" ytl="281.66" xbr="976.68" ybr="415.03" rotation="5.80" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="hako_13.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="633.93" ytl="162.78" xbr="907.83" ybr="295.49" rotation="10.90" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="hako_14.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="369.51" ytl="172.43" xbr="657.54" ybr="318.91" rotation="11.60" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="hako_15.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="423.14" ytl="286.48" xbr="694.69" ybr="432.95" rotation="12.40" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="hako_16.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="503.16" ytl="229.56" xbr="792.30" ybr="380.86" rotation="20.20" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="hako_17.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="459.38" ytl="177.21" xbr="795.98" ybr="371.11" rotation="32.00" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="hako_18.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="267.55" ytl="70.42" xbr="623.64" ybr="312.60" rotation="45.30" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="hako_19.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="532.90" ytl="115.20" xbr="986.03" ybr="419.41" rotation="53.80" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="hako_2.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="560.50" ytl="459.77" xbr="744.40" ybr="570.37" rotation="2.40" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="hako_20.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="720.46" ytl="187.16" xbr="1197.01" ybr="520.64" rotation="59.90" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="hako_21.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="671.30" ytl="12.89" xbr="999.06" ybr="265.39" rotation="342.40" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="hako_22.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="374.24" ytl="53.16" xbr="731.12" ybr="372.77" rotation="75.90" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="hako_23.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="271.39" ytl="258.38" xbr="565.87" ybr="487.25" rotation="59.10" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="hako_24.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="351.70" ytl="291.98" xbr="611.72" ybr="459.96" rotation="32.10" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="hako_25.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="405.70" ytl="275.00" xbr="627.99" ybr="413.75" rotation="12.30" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="hako_26.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="355.99" ytl="342.72" xbr="571.02" ybr="470.51" rotation="352.70" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="hako_27.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="409.92" ytl="368.62" xbr="632.94" ybr="508.48" rotation="331.80" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="hako_28.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="444.57" ytl="258.02" xbr="699.20" ybr="422.18" rotation="319.40" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="hako_29.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="523.36" ytl="247.55" xbr="813.38" ybr="459.60" rotation="307.50" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="hako_3.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="602.83" ytl="392.43" xbr="803.25" ybr="503.79" rotation="10.60" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="hako_30.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="635.00" ytl="282.57" xbr="925.44" ybr="514.66" rotation="300.30" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="hako_31.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="664.71" ytl="26.58" xbr="976.63" ybr="284.44" rotation="305.70" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="hako_32.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="803.49" ytl="20.71" xbr="1115.21" ybr="297.78" rotation="314.40" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="hako_33.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="942.73" ytl="330.79" xbr="1258.14" ybr="575.71" rotation="327.90" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="hako_34.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="890.86" ytl="60.83" xbr="1266.44" ybr="317.97" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="hako_35.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="694.62" ytl="21.78" xbr="1124.12" ybr="322.70" rotation="9.00" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="hako_36.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="561.40" ytl="195.88" xbr="993.09" ybr="472.07" rotation="9.90" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="hako_37.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="563.83" ytl="540.75" xbr="950.33" ybr="751.70" rotation="4.60" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="hako_38.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="663.60" ytl="400.56" xbr="931.50" ybr="567.29" rotation="3.10" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="hako_39.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="473.33" ytl="243.57" xbr="751.86" ybr="404.24" rotation="25.70" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="hako_4.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="660.28" ytl="272.58" xbr="884.92" ybr="391.53" rotation="14.10" z_order="0">
+    </box>
+  </image>
+  <image id="49" name="hako_40.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="357.13" ytl="122.97" xbr="632.93" ybr="285.49" rotation="19.30" z_order="0">
+    </box>
+  </image>
+  <image id="50" name="hako_41.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="303.45" ytl="34.12" xbr="566.83" ybr="201.06" rotation="8.10" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="hako_42.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="428.31" ytl="186.51" xbr="672.95" ybr="356.30" rotation="4.00" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="hako_43.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="516.88" ytl="338.18" xbr="736.55" ybr="476.95" rotation="3.70" z_order="0">
+    </box>
+  </image>
+  <image id="53" name="hako_44.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="585.64" ytl="430.19" xbr="766.42" ybr="545.51" rotation="4.40" z_order="0">
+    </box>
+  </image>
+  <image id="54" name="hako_45.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="599.50" ytl="487.77" xbr="750.70" ybr="585.92" rotation="5.90" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="hako_46.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="588.71" ytl="514.50" xbr="725.87" ybr="603.31" rotation="5.30" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="hako_47.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="585.10" ytl="519.89" xbr="710.16" ybr="599.94" rotation="4.70" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="hako_48.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="582.37" ytl="498.90" xbr="702.45" ybr="575.70" rotation="4.00" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="hako_49.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="582.90" ytl="526.93" xbr="700.36" ybr="602.73" rotation="4.40" z_order="0">
+    </box>
+  </image>
+  <image id="59" name="hako_5.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="581.89" ytl="164.43" xbr="821.89" ybr="286.76" rotation="19.30" z_order="0">
+    </box>
+  </image>
+  <image id="60" name="hako_50.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="585.34" ytl="517.50" xbr="702.22" ybr="592.29" rotation="4.70" z_order="0">
+    </box>
+  </image>
+  <image id="61" name="hako_51.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="573.90" ytl="511.42" xbr="693.70" ybr="585.31" rotation="4.90" z_order="0">
+    </box>
+  </image>
+  <image id="62" name="hako_52.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="553.45" ytl="492.42" xbr="682.55" ybr="573.20" rotation="4.90" z_order="0">
+    </box>
+  </image>
+  <image id="63" name="hako_53.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="544.85" ytl="467.70" xbr="696.10" ybr="562.76" rotation="6.50" z_order="0">
+    </box>
+  </image>
+  <image id="64" name="hako_54.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="530.15" ytl="404.29" xbr="718.24" ybr="523.01" rotation="4.50" z_order="0">
+    </box>
+  </image>
+  <image id="65" name="hako_55.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="517.50" ytl="294.04" xbr="750.41" ybr="438.28" rotation="5.20" z_order="0">
+    </box>
+  </image>
+  <image id="66" name="hako_56.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="516.89" ytl="155.25" xbr="790.30" ybr="328.86" rotation="5.20" z_order="0">
+    </box>
+  </image>
+  <image id="67" name="hako_57.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="510.79" ytl="96.36" xbr="855.67" ybr="303.74" rotation="5.70" z_order="0">
+    </box>
+  </image>
+  <image id="68" name="hako_58.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="505.69" ytl="151.27" xbr="977.36" ybr="442.95" rotation="4.60" z_order="0">
+    </box>
+  </image>
+  <image id="69" name="hako_59.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="452.71" ytl="385.67" xbr="1090.05" ybr="774.66" rotation="10.30" z_order="0">
+    </box>
+  </image>
+  <image id="70" name="hako_6.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="295.19" ytl="93.66" xbr="558.16" ybr="221.93" rotation="20.10" z_order="0">
+    </box>
+  </image>
+  <image id="71" name="hako_60.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="260.28" ytl="418.36" xbr="861.20" ybr="821.27" rotation="17.30" z_order="0">
+    </box>
+  </image>
+  <image id="72" name="hako_61.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="11.24" ytl="145.44" xbr="593.44" ybr="504.80" rotation="19.30" z_order="0">
+    </box>
+  </image>
+  <image id="73" name="hako_62.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="158.84" ytl="-112.76" xbr="679.10" ybr="215.23" rotation="19.10" z_order="0">
+    </box>
+  </image>
+  <image id="74" name="hako_63.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="356.36" ytl="65.60" xbr="758.54" ybr="314.24" rotation="14.40" z_order="0">
+    </box>
+  </image>
+  <image id="75" name="hako_64.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="438.59" ytl="305.87" xbr="759.50" ybr="525.73" rotation="9.10" z_order="0">
+    </box>
+  </image>
+  <image id="76" name="hako_65.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="424.90" ytl="403.65" xbr="727.20" ybr="595.34" rotation="358.50" z_order="0">
+    </box>
+  </image>
+  <image id="77" name="hako_66.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="440.56" ytl="394.45" xbr="738.64" ybr="584.21" rotation="347.60" z_order="0">
+    </box>
+  </image>
+  <image id="78" name="hako_67.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="527.45" ytl="322.95" xbr="866.34" ybr="530.69" rotation="340.90" z_order="0">
+    </box>
+  </image>
+  <image id="79" name="hako_68.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="543.52" ytl="273.10" xbr="896.24" ybr="491.09" rotation="337.80" z_order="0">
+    </box>
+  </image>
+  <image id="80" name="hako_69.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="497.82" ytl="299.70" xbr="852.18" ybr="517.10" rotation="338.30" z_order="0">
+    </box>
+  </image>
+  <image id="81" name="hako_7.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="355.31" ytl="236.47" xbr="591.05" ybr="369.88" rotation="22.70" z_order="0">
+    </box>
+  </image>
+  <image id="82" name="hako_70.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="560.55" ytl="211.69" xbr="850.10" ybr="379.09" rotation="357.00" z_order="0">
+    </box>
+  </image>
+  <image id="83" name="hako_71.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="610.34" ytl="168.36" xbr="886.18" ybr="335.12" rotation="359.60" z_order="0">
+    </box>
+  </image>
+  <image id="84" name="hako_72.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="591.64" ytl="85.77" xbr="879.95" ybr="277.45" z_order="0">
+    </box>
+  </image>
+  <image id="85" name="hako_73.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="599.43" ytl="109.14" xbr="869.04" ybr="283.69" z_order="0">
+    </box>
+  </image>
+  <image id="86" name="hako_74.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="624.36" ytl="201.09" xbr="878.39" ybr="361.61" z_order="0">
+    </box>
+  </image>
+  <image id="87" name="hako_75.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="636.36" ytl="290.39" xbr="881.04" ybr="450.91" rotation="1.70" z_order="0">
+    </box>
+  </image>
+  <image id="88" name="hako_76.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="610.77" ytl="373.90" xbr="846.01" ybr="523.49" rotation="5.20" z_order="0">
+    </box>
+  </image>
+  <image id="89" name="hako_77.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="551.28" ytl="421.17" xbr="792.55" ybr="568.59" rotation="7.00" z_order="0">
+    </box>
+  </image>
+  <image id="90" name="hako_78.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="539.82" ytl="420.38" xbr="796.50" ybr="578.37" rotation="5.70" z_order="0">
+    </box>
+  </image>
+  <image id="91" name="hako_79.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="564.75" ytl="373.33" xbr="817.96" ybr="530.65" rotation="8.10" z_order="0">
+    </box>
+  </image>
+  <image id="92" name="hako_8.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="522.53" ytl="378.84" xbr="776.98" ybr="519.19" rotation="15.30" z_order="0">
+    </box>
+  </image>
+  <image id="93" name="hako_80.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="562.13" ytl="395.87" xbr="802.94" ybr="552.73" rotation="9.20" z_order="0">
+    </box>
+  </image>
+  <image id="94" name="hako_81.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="545.38" ytl="513.15" xbr="801.48" ybr="679.19" rotation="11.10" z_order="0">
+    </box>
+  </image>
+  <image id="95" name="hako_82.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="571.03" ytl="508.78" xbr="838.21" ybr="677.26" rotation="6.50" z_order="0">
+    </box>
+  </image>
+  <image id="96" name="hako_83.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="602.74" ytl="290.02" xbr="893.80" ybr="479.99" rotation="3.60" z_order="0">
+    </box>
+  </image>
+  <image id="97" name="hako_84.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="599.89" ytl="148.01" xbr="937.43" ybr="364.81" rotation="3.10" z_order="0">
+    </box>
+  </image>
+  <image id="98" name="hako_85.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="500.26" ytl="455.74" xbr="913.29" ybr="708.97" rotation="16.10" z_order="0">
+    </box>
+  </image>
+  <image id="99" name="hako_86.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="228.33" ytl="204.41" xbr="711.78" ybr="526.60" rotation="28.40" z_order="0">
+    </box>
+  </image>
+  <image id="100" name="hako_87.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="267.77" ytl="112.36" xbr="670.43" ybr="384.03" rotation="34.00" z_order="0">
+    </box>
+  </image>
+  <image id="101" name="hako_88.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="456.30" ytl="106.65" xbr="795.59" ybr="336.06" rotation="35.70" z_order="0">
+    </box>
+  </image>
+  <image id="102" name="hako_89.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="527.04" ytl="145.15" xbr="810.52" ybr="327.17" rotation="21.70" z_order="0">
+    </box>
+  </image>
+  <image id="103" name="hako_9.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="495.10" ytl="323.23" xbr="766.09" ybr="474.82" rotation="4.80" z_order="0">
+    </box>
+  </image>
+  <image id="104" name="hako_90.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="522.73" ytl="197.34" xbr="798.74" ybr="368.38" rotation="12.90" z_order="0">
+    </box>
+  </image>
+  <image id="105" name="hako_91.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="516.52" ytl="221.16" xbr="789.20" ybr="388.69" rotation="10.20" z_order="0">
+    </box>
+  </image>
+  <image id="106" name="hako_92.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="491.26" ytl="245.55" xbr="771.52" ybr="413.77" rotation="7.10" z_order="0">
+    </box>
+  </image>
+  <image id="107" name="hako_93.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="366.22" ytl="227.05" xbr="697.05" ybr="424.47" rotation="4.70" z_order="0">
+    </box>
+  </image>
+  <image id="108" name="hako_94.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="94.64" ytl="207.30" xbr="635.42" ybr="522.10" rotation="2.20" z_order="0">
+    </box>
+  </image>
+  <image id="109" name="hako_95.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="309.58" ytl="291.07" xbr="979.22" ybr="667.36" rotation="3.80" z_order="0">
+    </box>
+  </image>
+  <image id="110" name="hako_96.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="490.49" ytl="378.76" xbr="1051.53" ybr="716.91" rotation="5.60" z_order="0">
+    </box>
+  </image>
+  <image id="111" name="hako_97.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="481.36" ytl="293.43" xbr="947.80" ybr="590.44" rotation="6.50" z_order="0">
+    </box>
+  </image>
+  <image id="112" name="hako_98.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="559.03" ytl="337.52" xbr="925.05" ybr="586.91" rotation="9.00" z_order="0">
+    </box>
+  </image>
+  <image id="113" name="hako_99.jpg" width="1280" height="720">
+    <box label="hako" source="manual" occluded="0" xtl="664.70" ytl="411.69" xbr="980.07" ybr="619.36" rotation="8.50" z_order="0">
+    </box>
+  </image>
+</annotations>

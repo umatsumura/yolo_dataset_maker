@@ -1,5 +1,6 @@
 import os
 import cv2
+import sys
 
 #convert mp4 movie into jpg image
 class VideotoImage:
@@ -7,7 +8,7 @@ class VideotoImage:
         self.image_width = image_width
         self.image_height = image_height
     
-    def save_frames(self, video_path, basename):
+    def save_frames(self, video_path, imgs_path, basename):
         videos = os.listdir(video_path)
         print(videos)
         digit = 0
@@ -17,12 +18,8 @@ class VideotoImage:
             print(cap.isOpened())
             if not cap.isOpened():
                 return
-            os.makedirs('data/dataset/train/images', exist_ok=True)
-            os.makedirs('data/dataset/train/labels', exist_ok=True)
-            os.makedirs('data/dataset/valid/images', exist_ok=True)
-            os.makedirs('data/dataset/valid/labels', exist_ok=True)
-            
-            base_path = os.path.join('data/dataset/train/images', basename)
+            os.makedirs(imgs_path, exist_ok=True)
+            base_path = os.path.join(imgs_path, basename)
             n = 0
             while True:
                 ret, frame = cap.read()
@@ -36,6 +33,11 @@ class VideotoImage:
                 else:
                     break
 
-videoToImage = VideotoImage(1280, 720)
 
-videoToImage.save_frames('data/flask/', 'flask')
+if __name__ == '__main__':
+    videoToImage = VideotoImage(1280, 720)
+    args = sys.argv
+    if len(args) > 3:
+        videoToImage.save_frames(args[1],args[2], args[3])
+    else:
+        print("fuck you.")
